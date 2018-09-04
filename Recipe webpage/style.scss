@@ -1,0 +1,90 @@
+body {
+  background: #333333;
+  margin: 3% 0 0% 0;
+  overflow: hidden;
+
+  main {
+
+    background-image: url("food-image-bg.png");
+    padding: 150px;
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    border-radius: 10px;
+
+    h1 {
+
+      color: #FFFFFF;
+      text-align: right;
+      font-size: 55px;
+      position: absolute;
+      top: 55px;
+      right: 20px;
+      padding-left: 20px;
+      padding-right: 170px;
+      text-transform: uppercase;
+    }
+    .recipies-info {
+
+      display: flex;
+      color: #FFFFFF;
+      font-weight: bold;
+      margin: auto;
+      position: absolute;
+      top: 110px;
+      right: 20px;
+      padding-left: 20px;
+      padding-right: 810px;
+
+      span{
+        margin: 0 20px 0 0  ;
+
+        color: #B5C640;
+      }
+
+    }
+
+    .prep-steps{
+
+      display: block;
+      margin: 0 0 0 100px;
+      position: absolute;
+      top: 200px;
+      left: 490px;
+      padding-left: 10px;
+      padding-right: 130px;
+
+
+      .step{
+        color: #FFFFFF;
+        margin: 0 0 0 0;
+        padding: 10px;
+        list-style-type: none;
+
+
+      }
+
+
+    }
+
+    .btn-primary{
+
+
+      border-radius: 15px;
+      position: absolute;
+      top: 190px;
+      left: 430px;
+      padding-left: 20px;
+      padding-right:  20px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      cursor: pointer;
+      color: #FFFFFF;
+      background: #B5C640;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+  }
+
+}

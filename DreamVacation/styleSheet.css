@@ -1,0 +1,85 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
+body {
+  font-family: "Lato", "sans-serif"; }
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("background.jpg");
+  background-size: cover;
+  padding-bottom: 220px; }
+  header .nav-bar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px; }
+    header .nav-bar ul {
+      display: flex; }
+      header .nav-bar ul li {
+        list-style-type: none;
+        padding: 10px;
+        text-transform: uppercase;
+        font-weight: bold; }
+        header .nav-bar ul li a {
+          text-decoration: none;
+          color: white; }
+  header p {
+    color: white;
+    text-align: center; }
+  header h1 {
+    margin-top: 200px;
+    font-size: 45px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: white; }
+  header .logo-ctr {
+    margin-top: 16px; }
+
+main {
+  background: lightgray; }
+  main h2 {
+    text-align: center; }
+  main p {
+    text-align: center;
+    color: gray; }
+  main .destination-section {
+    display: flex;
+    justify-content: space-around; }
+    main .destination-section article .destination-ctr {
+      background: white;
+      font-weight: bold;
+      margin-bottom: 23px;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px; }
+  main .customers-opinion {
+    background: white;
+    padding: 15px;
+    font-style: italic; }
+    main .customers-opinion .last-part {
+      display: flex;
+      text-align: center; }
+      main .customers-opinion .last-part article p {
+        width: 90%;
+        text-align: center; }
+      main .customers-opinion .last-part article img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        border: solid 9px #F1EDED; }
+
+footer {
+  background: lightgray;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between; }
+  footer p {
+    color: white; }
+  footer ul {
+    display: flex;
+    list-style-type: none; }
+    footer ul li {
+      margin-left: 20px;
+      list-style-type: none; }
+      footer ul li a {
+        color: white;
+        text-decoration: none; }
+
+/*# sourceMappingURL=styleSheet.css.map */

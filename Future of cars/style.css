@@ -1,0 +1,39 @@
+body nav {
+  text-transform: uppercase;
+  float: right; }
+  body nav ul {
+    color: black;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none; }
+    body nav ul li {
+      padding: 10px; }
+      body nav ul li a {
+        color: black;
+        text-decoration: none; }
+      body nav ul li a:hover {
+        color: #b38575; }
+body .header {
+  background: url("car-future.jpg") no-repeat center;
+  background-size: cover;
+  height: 700px; }
+  body .header h1 {
+    color: #b38575;
+    font-size: 70px;
+    padding: 50px;
+    text-transform: uppercase;
+    margin: auto; }
+body .content img {
+  width: 350px;
+  height: 260px;
+  float: left;
+  margin: 0 10px 0 10px; }
+body .content h2 {
+  color: #b38575;
+  text-transform: uppercase; }
+body footer {
+  text-align: center;
+  background: #cccccc;
+  padding: 20px; }
+
+/*# sourceMappingURL=style.css.map */

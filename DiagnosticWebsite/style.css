@@ -1,0 +1,38 @@
+body {
+  background-image: url("plan-page.jpg");
+  display: flex;
+  justify-content: center; }
+  body section {
+    background: #262626;
+    width: 250px;
+    height: 450px;
+    border: #424242 solid;
+    padding: 40px;
+    margin: 40px;
+    text-align: center; }
+    body section h1 {
+      color: white; }
+    body section .under-heading {
+      color: #696b80; }
+    body section p + p {
+      color: #696b80;
+      text-transform: capitalize; }
+    body section .price {
+      color: #27dcc4;
+      font-size: 50px;
+      font-weight: bold; }
+    body section .button {
+      background-color: #27dcc4;
+      border: none;
+      color: white;
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer; }
+    body section button:hover {
+      background-color: #acacac; }
+
+/*# sourceMappingURL=style.css.map */

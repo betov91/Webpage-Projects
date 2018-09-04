@@ -1,0 +1,62 @@
+body {
+  background: #355664;
+  font-family: Arial sans-serif; }
+  body h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: Forte, Arial, sans-serif; }
+  body h2 {
+    text-align: right;
+    color: white;
+    font-size: 40px;
+    font-family: Forte, Arial, sans-serif; }
+  body ul {
+    display: flex; }
+    body ul li {
+      list-style-type: none;
+      padding-right: 20px; }
+      body ul li #first {
+        color: #79abd7;
+        margin-left: 20px;
+        font-size: 30px;
+        text-transform: lowercase; }
+      body ul li #second {
+        color: green;
+        font-size: 30px;
+        text-transform: capitalize; }
+      body ul li #third {
+        color: white;
+        font-size: 30px;
+        text-transform: uppercase; }
+  body .main-window {
+    background: #213e4a;
+    border-radius: 1%;
+    margin: 35px;
+    padding: 1px; }
+    body .main-window h1 {
+      font-size: 60px;
+      letter-spacing: 29px;
+      margin: 40px 0 0 0; }
+    body .main-window hr {
+      border-color: #355664;
+      margin: 30px 2% 0 2%; }
+    body .main-window #img-paragraph {
+      display: flex;
+      padding: 50px; }
+      body .main-window #img-paragraph p {
+        color: white; }
+      body .main-window #img-paragraph p + p {
+        color: green; }
+
+#bottom-line {
+  border-color: #0c243c;
+  margin: 0 3% 0 3%; }
+
+footer {
+  text-align: center; }
+  footer p {
+    color: white;
+    font-size: 20px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,69 @@
+body {
+
+  header {
+    text-align: center;
+    h1 {
+      background: url("header.jpg");
+      margin: auto;
+      padding: 100px;
+      color: white;
+    }
+  }
+
+  main {
+
+    display: flex;
+
+    .content {
+
+      margin: 0 0 0 160px;
+
+      article {
+
+        img {
+
+          width: 650px;
+          height: 350px;
+        }
+        p {
+          margin: 0 100px 30px 0;
+        }
+
+        button{
+
+          border-radius: 35%;
+          border-color: red;
+          color: red;
+          padding: 10px;
+          background: white;
+          cursor: pointer;
+        }
+
+        button:hover{
+
+          color: white;
+          background-color: red;
+        }
+
+      }
+    }
+
+    aside {
+
+      padding: 10px;
+
+      img {
+        width: 320px;
+        height: 200px;
+        margin: 0 70px 0 0;
+
+      }
+      p {
+
+        margin: 4px 70px 20px 0;
+
+      }
+
+    }
+  }
+}
