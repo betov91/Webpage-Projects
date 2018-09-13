@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css?family=Ruslan+Display');
+
+
+
+
+header {
+  section {
+    background: yellow;
+  }
+  .banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("https://st3.depositphotos.com/8416818/14484/i/1600/depositphotos_144847379-stock-photo-kids-easter-background-handmade-colorful.jpg");
+    min-height: 670px;;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .row {
+    margin: 200px;
+    h1 {
+      color: white;
+      text-transform: capitalize;
+      font-family: 'Ruslan Display', cursive;
+      text-align: center;
+      margin-top: 50px;
+      font-size: 70px;
+    }
+    hr {
+
+      border: 1px solid white;
+      width: 95%;
+    }
+  }
+
+  /***********************************************************************
+  *  OPAQUE NAVBAR SECTION
+  ***********************************************************************/
+
+  #navMain {
+    ul {
+      li {
+        a {
+          color: #FFFFFF;
+          font-size: 17px;
+          font-family: 'Ruslan Display', cursive;
+        }
+        a:hover {
+
+          box-shadow: 5px 11px 20px #888888;
+
+        }
+      }
+    }
+  }
+
+  .opaque-navbar {
+    background-color: rgba(0, 0, 0, 0.0);
+    /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 60px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+  }
+
+  .opaque-navbar.opaque {
+    background-color: #9400D3;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+    opacity: 0.8;
+  }
+
+  ul.dropdown-menu {
+    background-color: black;
+  }
+
+  @media (max-width: 992px) {
+    body {
+      background: red;
+    }
+    .opaque-navbar {
+      background-color: black;
+      height: 60px;
+      transition: background-color .5s ease 0s;
+    }
+
+  }
+}
+
+//End of hreader
+
+main {
+
+  .second-title {
+
+    margin: 75px 0 0 0;
+
+
+  }
+
+  #main-text-paragraph {
+
+    width: 55%;
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+
+  }
+
+  #second-main {
+
+    margin: 150px 0 150px 0;
+    article {
+      font-size: 14px;
+      h1 {
+        text-transform: capitalize;
+        margin: 25px;
+        font-size: 30px;
+        font-weight: bold;
+      }
+      img {
+
+
+
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        border: 2px solid pink;
+
+      }
+
+    }
+
+  }
+
+  hr {
+
+    border: 0.6px solid lightgray;
+    width: 85%;
+    margin-bottom: 150px;
+
+  }
+
+  .main-third {
+
+    img {
+
+      width: 350px;
+      height: 250px;
+      margin: 15px;
+      box-shadow: 5px 10px 12px #888888;
+      border: 1px solid pink;
+      border-radius: 4px;
+      padding: 5px;
+
+    }
+
+    h1 {
+
+      text-transform: capitalize;
+      margin: 20px;
+      font-size: 30px;
+
+    }
+    p {
+      margin: 30px;
+      font-size: 14px;
+
+    }
+  }
+
+  hr {
+
+    border: 0.6px solid lightgray;
+    width: 85%;
+    margin-bottom: 150px;
+
+  }
+
+  .fourth-main {
+    h1 {
+      text-align: center;
+      margin-bottom: 100px;
+      text-transform: capitalize;
+      font-size: 50px;
+      letter-spacing: 5px;
+
+    }
+
+    #photostack-1 {
+
+      width: 1150px;
+      height: 500px;
+      margin: 0 0 150px 0;
+      box-shadow: 10px 10px 11px #888888;;
+
+    }
+
+    .after-fourth-part {
+
+      border: 0.6px solid lightgray;
+      width: 100%;
+      margin-bottom: 150px;
+
+    }
+
+  }
+
+  .fifth-main {
+
+    display: inline-flex;
+
+    .form-title {
+
+      h1 {
+        font-size: 30px;
+        font-weight: bold;
+
+        text-align: left;
+        margin: 0 0 0 55px;
+
+      }
+
+      .p-5 {
+
+        margin: 20px 0 0 0;
+        #message-filed {
+
+          height: 100px;
+
+        }
+        input {
+
+          margin: 0 10px 15px 10px;
+          padding: 10px;
+          width: 380px;
+          font-size: 15px;
+
+        }
+
+        input[type="text"] {
+          border-left: none;
+          border-right: none;
+          border-top: none;
+        }
+        input:focus {
+          outline: none;
+        }
+
+        textarea {
+          border: 2px solid #EEEEEE;
+          border-left: none;
+          border-right: none;
+          border-top: none;
+          margin: 0 10px 15px 10px;
+          padding: 10px;
+          width: 380px;
+          font-size: 15px;
+
+
+        }
+
+        i{
+          position: relative;
+          font-size: 30px;
+          top: 42px;
+          right: 43px;
+
+
+        }
+
+
+
+
+        textarea {
+          resize: none;
+        }
+
+        .button-form {
+
+          button {
+
+            margin: 40px 0 0 90px;
+            padding: 12px 100px 12px 70px;
+            width: 180px;
+            font-size: 15px;
+            color: white;
+            border: none  ;
+            background: blue;
+            border-radius: 5px;
+          }
+
+
+        }
+
+
+        }
+
+    }
+    .map {
+
+      display: inline-flex;
+      margin: 0 0 70px 150px;
+      border: 1px solid blue;
+      padding: 5px;
+
+    }
+  }
+
+}
+
+.line-before-footer {
+
+
+  background: #8A2BE2;
+  padding: 5px 0 8px 50px;
+  font-size: 18px;
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+
+  p {
+
+    color: #FFFFFF;
+    font-weight: bold;
+
+  }
+
+  #brand-icons {
+    text-align: right;
+    font-size: 35px;
+    float: end;
+    padding: 0 150px 0 0;
+    i {
+      margin: 0 15px 0 15px;
+      color: #FFFFFF;
+    }
+
+    i:hover {
+      color: #7B948C;
+
+    }
+
+  }
+
+}
+
+footer {
+
+  .container-above-footer {
+    background: #1C2331;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    padding: 0;
+    font-size: 15px;
+    height: 300px;
+
+    h4 {
+      margin: 30px 90px 0 90px;
+      font-weight: bold;
+    }
+
+    ul {
+
+      margin: 0 20px 0 20px;
+      li {
+        margin: 20px;
+      }
+    }
+
+    #text-p {
+      width: 300px;
+      margin: 0 0 0 90px;
+    }
+
+    hr {
+      width: 220px;
+      border: 1px solid mediumpurple;
+
+    }
+
+  }
+
+  .container-bellow-footer {
+
+    background-color: black;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 0 15px 0;
+    font-size: 15px;
+
+    #color-last-footer {
+      color: #7B948C;
+    }
+  }
+}
+
+
+
+
+
