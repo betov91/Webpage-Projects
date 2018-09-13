@@ -1,0 +1,241 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUuhv.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0d.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOUuhv.woff) format('woff');
+}
+
+body {
+
+  background: #334A55;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+  header {
+
+    .upper-part {
+
+      nav {
+        position: relative;
+        background: #EFF4F7;
+        padding: 24px;
+        margin: 30px;
+        bottom: 85px;
+
+        ul {
+          text-align: right;
+          li {
+            list-style-type: none;
+            display: inline-block;
+            margin-left: 20px;
+
+            a {
+              color: #BEC3C2;
+              text-decoration: none;
+              text-transform: uppercase;
+
+
+            }
+            a:hover{
+
+              color: black;
+              border-bottom: 3px solid aqua;
+              padding-bottom: 20px;
+
+
+            }
+          }
+
+
+        }
+      }
+      .red-square {
+        background: red;
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        top: 35px;
+        position: relative;
+
+      }
+      .letters {
+        text-transform: uppercase;
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+        letter-spacing: 9px;
+        text-align: center;
+        position: relative;
+        bottom: 125px;
+      }
+
+    }
+
+  }
+  main {
+
+    .main-part {
+      background: #EFF4F7;
+      margin: 100px;
+      padding: 70px;
+      height: 900px;
+
+      .smaller-title {
+
+        text-align: center;
+        font-size: 50px;
+        text-transform: uppercase;
+        bottom: 180px;
+        position: relative;
+      }
+
+      .bigger-title {
+        color: #6DFFB8;
+        font-size: 110px;
+        text-transform: uppercase;
+        position: relative;
+        left: 390px;
+        bottom: 30px;
+
+      }
+
+
+      .red-window {
+
+        background: red;
+        position: relative;
+        width: 350px;
+        height: 400px;
+        margin: auto;
+
+        img {
+          width: 60px;
+          height: 60px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          border-radius: 50px;
+          padding: 20px;
+
+
+
+
+        }
+        .stars{
+          text-align: center;
+          color: white;
+          letter-spacing: 10px;
+        }
+      p{
+
+          text-align: center;
+          color: white;
+          font-size: 15px;
+          padding: 30px;
+        }
+        .button-first{
+
+          background: red;
+          border: 3px solid #61E2A3;
+          padding: 7px 14px 7px 14px;
+          display: block;
+          margin: auto;
+          color: #fff;
+          text-transform: uppercase;
+          font-weight: bold;
+
+
+        }
+
+        .button-first:hover{
+          background: #61E2A3;
+          cursor: pointer;
+          color: darkgreen;
+          font-weight: bold;
+
+
+
+        }
+
+
+      }
+
+      .white-window{
+
+        background: white;
+        height: 400px;
+        top: 200px;
+        padding: 0 0 0 50px;
+        margin: -170px 0 0 0;
+
+
+
+        h1{
+          text-align: left;
+          color: #61E2A3;
+          font-size: 40px;
+          position: relative;
+          top: 150px;
+          padding: 10px;
+        }
+
+        p{
+          justify-content: left;
+          position: relative;
+          top: 150px;
+          padding: 10px;
+
+
+        }
+
+        .button{
+
+          background: white;
+          justify-content: left;
+          position: relative;
+          left: 8px;
+          top: 165px;
+          border: 2px solid grey;
+          padding: 10px 12px 10px 12px;
+          text-transform: uppercase;
+          font-weight: bold;
+
+
+
+
+
+        }
+        .button:hover{
+
+          background: #628291;
+          font-weight: bold;
+          color: #61E2A3;
+          
+        }
+
+      }
+
+
+
+    }
+
+  }
+}
